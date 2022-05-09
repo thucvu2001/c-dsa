@@ -1,6 +1,8 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+
+// Bai toan cai tui
 int main()
 {
     int n, V;

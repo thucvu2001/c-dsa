@@ -20,7 +20,7 @@ void sinh()
         check = false;
     } else {
         a[i]--;
-        int tmp = cnt - i + 1;
+        int tmp = cnt - i + 1; // phan con lai chua duoc bieu dien
         int q = tmp / a[i];
         int r = tmp % a[i];
         cnt = i;

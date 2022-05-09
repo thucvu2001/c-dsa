@@ -1,6 +1,8 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+// in ra tất cả các trường hợp xếp n quân hậu vào bàn cờ kích thước n * n sao cho chúng không ăn nhau
+
 int X[1001], n, cot[1001], dcxuoi[1001], dcnguoc[1001];
 
 void in()

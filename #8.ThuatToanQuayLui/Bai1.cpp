@@ -3,18 +3,18 @@ using namespace std;
 
 int n, k, s, ans = 0;
 
-void Try(int sum, int cnt, int pos)
+void Try(int pos, int cnt, int sum)
 {
-    for (int i = pos; i <= n; i++) {
-        if (sum + i <= s) {
-            sum += i;
+    for (int j = pos; j <= n; j++) {
+        if (sum + j <= s) {
+            sum += j;
             cnt++;
             if (sum == s && cnt == k) {
                 ans++;
             } else {
-                Try(sum, cnt, i + 1);
+                Try(j + 1, cnt, sum);
             }
-            sum -= i;
+            sum -= j;
             --cnt;
         }
     }

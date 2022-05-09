@@ -2,7 +2,7 @@
 using namespace std;
 
 using ll = long long;
-// S=>T
+// S => T
 // F[i][j] : Số thao tác tối thiểu để biến i kí tự đầu tiên của xâu S thành j kí tự
 // đầu tiên của xâu T
 
