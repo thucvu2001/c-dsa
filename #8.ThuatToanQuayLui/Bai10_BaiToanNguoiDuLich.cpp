@@ -3,11 +3,10 @@
 // i đến thành phố j. Một người du lịch xuất phát từ thành phố 1, muốn đi thăm tất cả các thành phố còn lại mỗi
 // thành phố đúng 1 lần và cuối cùng quay lại thành phố 1. Hãy chỉ ra chi phí ít nhất mà người đó phải bỏ ra.
 
-
 #include <bits/stdc++.h>
 using namespace std;
 
-int n, c[1001][1001]; // n: số lượng đường đi, C[i][j]: chi phí đường đi từ thành phố i đến thành phố j
+int n, c[1001][1001]; // n: số lượng thành phố, C[i][j]: chi phí đường đi từ thành phố i đến thành phố j
 int fopt = INT_MAX; // lưu kết quả (đường đi tối ưu)
 int cmin = INT_MAX; // chi phí tối thiểu giữa 2 thành phố bất kì
 int X[1001]; // lưu thứ tự thành phố chọn để đi

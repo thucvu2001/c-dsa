@@ -8,13 +8,14 @@ int main()
     cin >> n >> S;
     vector<int> cnt(S + 1, 1e9);
     cnt[0] = 0;
-    int c[n];
+    int c[n]; // số tờ tiền tối thiểu để có thể đổi số tiền là i
+    // c[j] : cnt[i - c[j]];
     for (int i = 0; i < n; i++) {
         cin >> c[i];
     }
     for (int i = 0; i < n; i++) {
         for (int j = 0; j <= S; j++) {
-            if (j >= c[i]) {
+            if (j >= c[i]) { // không xét số tiền nhỏ hơn mệnh giá tờ tiền đang xét
                 cnt[j] = min(cnt[j], cnt[j - c[i]] + 1);
             }
         }
