@@ -1,6 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
-
+ // Xau con tang dai nhat
 int main()
 {
     int n;

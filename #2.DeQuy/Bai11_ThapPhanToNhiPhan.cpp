@@ -13,8 +13,9 @@ void nhiPhan(long long n)
 
 int main()
 {
-    long long n; cin >> n;
-    if(n == 0){
+    long long n;
+    cin >> n;
+    if (n == 0) {
         cout << "0";
     } else {
         nhiPhan(n);
