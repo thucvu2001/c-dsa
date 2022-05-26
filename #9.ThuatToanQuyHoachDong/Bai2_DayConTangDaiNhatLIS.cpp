@@ -4,6 +4,7 @@
 
 // len[i]: độ dài dãy con tăng dài nhất kết thúc ở chỉ số i
 
+// O(n^2)
 #include <bits/stdc++.h>
 using namespace std;
 

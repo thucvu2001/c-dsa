@@ -1,4 +1,6 @@
-#include<bits/stdc++.h>
+// Có n quả táo và m cái hộp, Andrew2804 muốn tìm số cách chia n quả táo này vào m hộp sao cho hộp nào cũng có ít nhất 1 quả táo. Bạn hãy giúp anh ta nhé.
+
+#include <bits/stdc++.h>
 using namespace std;
 
 const int MOD = (int)1e9 + 7;
