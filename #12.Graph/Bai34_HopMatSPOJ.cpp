@@ -11,7 +11,7 @@ int k, n, m;
 vector<int> dske[1001];
 vector<int> vitri;
 bool visited[1001];
-int dem[1001]; // dem xem cac dinh tren do thi co bao nhieu dinh di qua duoc no? neu dem[i] == thi dinh do thoa man
+int dem[1001]; // dem xem cac dinh hien tai co bao nhieu dinh di qua duoc no? neu dem[i] == thi dinh do thoa man
 
 void nhap()
 {
