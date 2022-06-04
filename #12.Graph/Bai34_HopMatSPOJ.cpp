@@ -31,7 +31,7 @@ void nhap()
 
 void dfs(int u)
 {
-    dem[u]++;
+    dem[u]++; // dem cac dinh co the di qua
     visited[u] = true;
     for (int v : dske[u]) {
         if (!visited[v]) {
