@@ -25,7 +25,7 @@ int main()
             if (k == 2 && s[i] == s[j]) { // neu xau co 2 ki tu va 2 ki tu giong nhau
                 F[i][j] = true;
             } else {
-                F[i][j] = F[i + 1][j - 1] && (s[i] == s[j]); // cong thuc qhd
+                F[i][j] = F[i + 1][j - 1] && (s[i] == s[j]); // cong thuc qhd: dua vao xau con nho hon va neu 2 dau bang nhau thi xau lon doi xung
             }
 
             // tim max neu xau hien tai doi xung

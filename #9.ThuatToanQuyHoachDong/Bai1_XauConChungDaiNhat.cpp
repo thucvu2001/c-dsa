@@ -1,3 +1,5 @@
+// Cho 2 xâu kí tự S và T, hãy tìm xâu con chung dài nhất của S và T. Các kí tự của xâu con không nhất thiết phải liền kề nhau.
+
 #include <bits/stdc++.h>
 using namespace std;
 

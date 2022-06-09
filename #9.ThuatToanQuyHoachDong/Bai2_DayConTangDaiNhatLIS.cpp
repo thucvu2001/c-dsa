@@ -1,3 +1,5 @@
+// Cho mảng số nguyên A[] gồm N phần tử, hãy tìm dãy con (không nhất thiết các phần tử phải liên tiếp) tăng chặt dài nhất của mảng A.
+
 // Dãy con tăng dài nhất - Longest increasing subsequence (LIS)
 // VD: 2 3 8 1 4 5
 // Dãy con tăng dài nhất có độ dài là 4: 2 3 4 5
