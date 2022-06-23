@@ -3,7 +3,10 @@ using namespace std;
 
 int n, m;
 vector<int> dske[1001];
-int color[1001];
+int color[1001]; // su dung 3 mau: trang, xam, den
+// trang: chua tham;
+// xam: dang tham (da tham nhung chua xong);
+// den: da tham xong; 
 
 void nhap()
 {

@@ -23,7 +23,7 @@ int main()
         for (int j = 0; j < i; j++) {
             if (a[i] > a[j]) {
                 len[i] = max(len[i], len[j] + 1);
-                // nếu không có max sẽ sai trong trường hợp sau, vd: 1 2 3 4 1 5
+                // nếu không có max sẽ sai trong trường hợp sau, vd: 1 2 3 4 1 5, khi xet 2 phan tu cuoi
             }
         }
     }

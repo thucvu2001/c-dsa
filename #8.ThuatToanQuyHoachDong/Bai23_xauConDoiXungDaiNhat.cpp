@@ -10,7 +10,7 @@ int main()
 
     bool F[n + 1][n + 1]; // luu xau con bat dau tu [i] ket thuc o [j] co doi xung hay k?
     memset(F, false, sizeof(F));
-    
+
     for (int i = 1; i <= n; i++) {
         F[i][i] = true; // xau con co do dai la 1 thi deu doi xung
     }

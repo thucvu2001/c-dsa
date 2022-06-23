@@ -9,10 +9,10 @@ int main()
     cin >> n >> V;
     int w[n + 1], v[n + 1]; // w: the tich cac do vat, v: gia tri cua cac do vat
     for (int i = 1; i <= n; i++) {
-        cin >> w[i];
+        cin >> w[i]; // trong luong cac do vat
     }
     for (int i = 1; i <= n; i++) {
-        cin >> v[i];
+        cin >> v[i]; // gia tri cac do vat
     }
 
     int res[n + 1][V + 1]; // res[n][V] la dap an cua bai toan
