@@ -1,4 +1,4 @@
-// tìm cây khung nhỏ nhất (tham lam)
+// tìm cây khung nhỏ nhất sử dụng thuật toán Kruskal (tham lam)
 
 #include <bits/stdc++.h>
 using namespace std;

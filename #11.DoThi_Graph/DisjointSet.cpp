@@ -1,4 +1,4 @@
-// cấu trúc dữ liệu disjoin set (Union find) : Các tập hợp dời nhau
+// cấu trúc dữ liệu disjoin set (DSU) (Union find) : Các tập hợp dời nhau
 
 #include <bits/stdc++.h>
 using namespace std;

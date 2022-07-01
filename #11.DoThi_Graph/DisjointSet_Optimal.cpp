@@ -36,11 +36,9 @@ bool Union(int u, int v)
     } else if (sz[u] < sz[v]) {
         parent[u] = v;
         sz[v] += sz[u];
-        // sz[u] = sz[v];
     } else {
         parent[v] = u;
         sz[u] += sz[v];
-        // sz[v] = sz[u];
     }
     return true;
 }

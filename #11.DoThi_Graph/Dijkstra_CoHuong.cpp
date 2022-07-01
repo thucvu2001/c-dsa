@@ -15,7 +15,7 @@ void nhap()
         int w; // lưu trọng số của cạnh (x, y)
         cin >> x >> y >> w;
         dske[x].push_back({ y, w });
-        // dske[y].push_back({ x, w });
+        // dske[y].push_back({ x, w }); // neu vo huong 
     }
 }
 
