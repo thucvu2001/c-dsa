@@ -12,6 +12,7 @@ long long ext(long long a, long long b, long long& x, long long& y)
     long long tmp = ext(b, a % b, x1, y1);
     x = y1;
     y = x1 - a / b * y1;
+    cout << x << " " << y << endl;
     return tmp;
 }
 
